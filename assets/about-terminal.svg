@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="252" viewBox="0 0 900 252" role="img" aria-label="About Anurag Patel Terminal">
+  <defs>
+    <linearGradient id="termBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.55"/>
+    </linearGradient>
+    <style>
+      @keyframes cursorBlink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      .cur { animation: cursorBlink 1.1s steps(1) infinite; }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="896" height="248" rx="14" fill="#0b0f17" stroke="url(#termBorder)" stroke-width="1.4"/>
+  <!-- Title bar -->
+  <path d="M 2 16 Q 2 2 16 2 L 884 2 Q 898 2 898 16 L 898 36 L 2 36 Z" fill="#161b26"/>
+  <line x1="2" y1="36" x2="898" y2="36" stroke="#263044" stroke-width="1"/>
+  <circle cx="24" cy="19" r="5.5" fill="#ff5f56"/>
+  <circle cx="42" cy="19" r="5.5" fill="#ffbd2e"/>
+  <circle cx="60" cy="19" r="5.5" fill="#27c93f"/>
+  <text x="450" y="23" text-anchor="middle" fill="#94a3b8" font-family="Consolas, 'Fira Code', monospace" font-size="12">anurag@cse-lab: ~/profile.json — bash</text>
+
+  <!-- Left monogram badge -->
+  <g transform="translate(36, 58)">
+    <rect x="0" y="0" width="214" height="168" rx="12" fill="#111827" stroke="#243045" stroke-width="1"/>
+    <polygon points="107,22 144,43 144,85 107,106 70,85 70,43" fill="#0d1117" stroke="#00e5ff" stroke-width="2"/>
+    <text x="107" y="72" text-anchor="middle" fill="#ffffff" font-family="Consolas, 'Fira Code', monospace" font-size="24" font-weight="800">&lt;AP/&gt;</text>
+    <text x="107" y="130" text-anchor="middle" fill="#00e5ff" font-family="Consolas, 'Fira Code', monospace" font-size="12" font-weight="700">B.TECH CSE • 3RD YEAR</text>
+    <text x="107" y="150" text-anchor="middle" fill="#94a3b8" font-family="Consolas, 'Fira Code', monospace" font-size="11">Open to Internships</text>
+  </g>
+
+  <!-- Right JSON neofetch output -->
+  <g font-family="Consolas, 'Fira Code', monospace" font-size="13">
+    <text x="278" y="72" fill="#22c55e">anurag@github<tspan fill="#64748b">:</tspan><tspan fill="#00e5ff">~</tspan><tspan fill="#e2e8f0">$ cat profile.json</tspan></text>
+
+    <text x="278" y="98" fill="#00e5ff">&quot;name&quot;<tspan fill="#64748b">:      </tspan><tspan fill="#fde68a">&quot;Anurag Patel&quot;</tspan><tspan fill="#64748b">,</tspan></text>
+    <text x="278" y="120" fill="#00e5ff">&quot;degree&quot;<tspan fill="#64748b">:    </tspan><tspan fill="#fde68a">&quot;3rd Year Computer Science &amp; Engineering&quot;</tspan><tspan fill="#64748b">,</tspan></text>
+    <text x="278" y="142" fill="#00e5ff">&quot;focus&quot;<tspan fill="#64748b">:     </tspan><tspan fill="#a5f3fc">&quot;Systems Telemetry, Computer Vision &amp; Full-Stack&quot;</tspan><tspan fill="#64748b">,</tspan></text>
+    <text x="278" y="164" fill="#00e5ff">&quot;building&quot;<tspan fill="#64748b">:  </tspan><tspan fill="#c4b5fd">&quot;CUDA Benchmarks, Edge AI HUDs &amp; FastAPI Apps&quot;</tspan><tspan fill="#64748b">,</tspan></text>
+    <text x="278" y="186" fill="#00e5ff">&quot;badges&quot;<tspan fill="#64748b">:    </tspan><tspan fill="#86efac">&quot;Galaxy Brain x4 (Gold) • YOLO • Quickdraw&quot;</tspan><tspan fill="#64748b">,</tspan></text>
+    <text x="278" y="208" fill="#00e5ff">&quot;sandbox&quot;<tspan fill="#64748b">:   </tspan><tspan fill="#93c5fd">&quot;github.com/anurag200513 (Hackathon &amp; Web Hub)&quot;</tspan></text>
+
+    <text x="278" y="232" fill="#22c55e">anurag@github<tspan fill="#64748b">:</tspan><tspan fill="#00e5ff">~</tspan><tspan fill="#e2e8f0">$</tspan></text>
+  </g>
+  <rect class="cur" x="406" y="220" width="8" height="15" rx="1" fill="#00e5ff"/>
+</svg>

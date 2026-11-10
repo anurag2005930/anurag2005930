@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="150" viewBox="0 0 440 150" role="img" aria-label="temp (ThermaGuard)">
+  <defs>
+    <linearGradient id="accentTop" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="437" height="147" rx="14" fill="#0d1117" stroke="#263044" stroke-width="1.4"/>
+  <rect x="24" y="1.5" width="120" height="3" rx="1.5" fill="url(#accentTop)"/>
+
+  <!-- Repo dot + Title + Stars -->
+  <circle cx="30" cy="30" r="5" fill="#00e5ff" fill-opacity="0.2" stroke="#00e5ff" stroke-width="1.5"/>
+  <text x="44" y="34" fill="#f8fafc" font-family="Segoe UI, Ubuntu, sans-serif" font-size="15" font-weight="700">temp (ThermaGuard)</text>
+  <text x="416" y="34" text-anchor="end" fill="#fbbf24" font-family="Consolas, monospace" font-size="11.5">★ 1  <tspan fill="#64748b">↗</tspan></text>
+
+  <!-- Description -->
+  <text x="24" y="64" fill="#94a3b8" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12.8">Real-time Android phone CPU &amp; battery thermal</text>
+  <text x="24" y="83" fill="#94a3b8" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12.8">monitor over USB/Wi-Fi ADB with live glass UI.</text>
+
+  <!-- Tags + Language -->
+  <rect x="24" y="110" width="56" height="22" rx="6" fill="#161f30" stroke="#00e5ff" stroke-opacity="0.3" stroke-width="1"/><text x="52.0" y="125" text-anchor="middle" fill="#cbd5e1" font-family="Consolas, monospace" font-size="10.5" font-weight="600">ADB</text><rect x="88" y="110" width="64" height="22" rx="6" fill="#161f30" stroke="#00e5ff" stroke-opacity="0.3" stroke-width="1"/><text x="120.0" y="125" text-anchor="middle" fill="#cbd5e1" font-family="Consolas, monospace" font-size="10.5" font-weight="600">Python</text><rect x="160" y="110" width="56" height="22" rx="6" fill="#161f30" stroke="#00e5ff" stroke-opacity="0.3" stroke-width="1"/><text x="188.0" y="125" text-anchor="middle" fill="#cbd5e1" font-family="Consolas, monospace" font-size="10.5" font-weight="600">SSE</text>
+  <circle cx="334" cy="121" r="4.5" fill="#f1e05a"/>
+  <text x="416" y="125" text-anchor="end" fill="#cbd5e1" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11.5" font-weight="600">JavaScript</text>
+</svg>
